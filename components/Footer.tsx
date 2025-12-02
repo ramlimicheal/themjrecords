@@ -3,7 +3,7 @@ import { motion } from 'framer-motion';
 
 const Footer: React.FC = () => {
     return (
-        <footer className="mt-20 pt-12 border-t border-[#222] grid grid-cols-1 md:grid-cols-12 gap-8 text-[10px] text-[#444] uppercase tracking-widest pb-12">
+        <footer className="mt-0 pt-12 border-t border-[#222] grid grid-cols-1 md:grid-cols-12 gap-8 text-[10px] text-[#444] uppercase tracking-widest pb-12">
             <div className="md:col-span-4">
                 <h5 className="text-white mb-6 text-xs font-bold">Studio</h5>
                 <motion.a whileHover={{ x: 5, color: '#fff' }} href="mailto:studio@mj-records.com" className="block mb-2 text-[#888] transition-colors">studio@mj-records.com</motion.a>

@@ -53,7 +53,7 @@ const App: React.FC = () => {
 
   return (
     <Router>
-      <div className="min-h-screen bg-[#050505] text-[#EAEAEA] font-sans selection:bg-white selection:text-black overflow-x-hidden relative pb-24">
+      <div className={`min-h-screen bg-[#050505] text-[#EAEAEA] font-sans selection:bg-white selection:text-black overflow-x-hidden relative ${currentBeat ? 'pb-32' : ''}`}>
         <Gradients />
 
         {/* Grid Lines Background for Visual Alignment Debugging (Optional aesthetic choice) */}

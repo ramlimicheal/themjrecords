@@ -11,6 +11,7 @@ import Testimonials from '../../components/Testimonials';
 import ContactCTA from '../../components/ContactCTA';
 import UpcomingDemo from '../../components/UpcomingDemo';
 import { Beat } from '../../types';
+import { TOP_BEATS } from '../../constants';
 
 interface HomeProps {
     currentBeat: Beat | null;
@@ -38,7 +39,10 @@ const Home: React.FC<HomeProps> = ({ currentBeat, isPlaying, onPlay, onPause }) 
             </motion.div>
 
             <Hero />
-            <UpcomingDemo />
+            <UpcomingDemo
+                onPlay={() => onPlay(TOP_BEATS[0])}
+                isPlaying={isPlaying && currentBeat?.id === TOP_BEATS[0].id}
+            />
             <Team />
             <BeatStore
                 currentBeat={currentBeat}

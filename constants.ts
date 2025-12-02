@@ -12,13 +12,13 @@ export const NAV_ITEMS: NavItem[] = [
 export const TOP_BEATS: Beat[] = [
   {
     id: '1',
-    title: 'NEON GRAVES',
-    genre: 'Dark Melodic Trap',
+    title: 'NEE EN (DEMO)',
+    genre: 'Exclusive Preview',
     bpm: 140,
     plays: 12500,
     price: 49.99,
     duration: "3:42",
-    audioSrc: "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-1.mp3",
+    audioSrc: "/Nee%20En.mp3",
     key: "Cm"
   },
   {

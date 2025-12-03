@@ -78,7 +78,7 @@ const App: React.FC = () => {
         </motion.div>
 
         {/* Main Container - Strict Grid System */}
-        <div className="max-w-[1400px] mx-auto px-6 md:px-12 pt-16 pb-24 relative z-10">
+        <div className="max-w-[1400px] mx-auto px-6 md:px-12 pt-16 relative z-10">
           <Header />
 
           <main>
